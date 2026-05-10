@@ -1,0 +1,30 @@
+# Dependencies - NEVER commit these
+node_modules/
+
+# Build outputs
+dist/
+dist-electron/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Bible data (large, downloadable)
+data/kjv.json
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Cache
+.vite/
+*.tsbuildinfo
